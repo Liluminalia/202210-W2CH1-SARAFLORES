@@ -7,7 +7,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "lint": "eslint",
-        "sass": "sass sass:css --watch"
+        "sass": "sass sass:css --watch",
+        "prepare": "husky install"
     },
     "repository": {
         "type": "git",
@@ -24,6 +25,7 @@
         "eslint-config-airbnb-base": "^15.0.0",
         "eslint-config-prettier": "^8.5.0",
         "eslint-plugin-import": "^2.26.0",
+        "husky": "^8.0.1",
         "sass": "^1.55.0"
     },
     "prettier": {
