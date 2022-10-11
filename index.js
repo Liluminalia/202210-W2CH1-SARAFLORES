@@ -3,9 +3,9 @@ import (pasapalabra) from './pasapalabra/pasapalabra.js';
 import (bingo) from './bingo/bingo.js';
 import (airlines) from './airlines/airlines.js';
 
-const main = async () =>{
+const calculadoraPRO = async () =>{
 
 }
 document.addEventListener('DOMContentLoaded', () => {
-    document.querySelector('main button').addEventListener('clic', main);
+    document.querySelector('calculadoraPRO').addEventListener('clic', calculadoraPRO);
 });
